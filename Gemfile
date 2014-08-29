@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 group :development, :test do
-  gem 'sqlite3'
-  gem 'rspec-rails'
+  gem 'sqlite3', '1.3.8'
+  gem 'rspec-rails', '2.13.1'
 end
 
 group :test do
-  gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
 end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
