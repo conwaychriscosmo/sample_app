@@ -14,6 +14,9 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+#require 'capybara/rails'
+require 'capybara/rspec'
+#require 'rspec/rails'
 RSpec.configure do |config|
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
@@ -75,5 +78,6 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 =end
-  config.include Capybara: :DSL
+  #config.infer_spec_type_from_file_location!
+  config.include Capybara::DSL
 end
