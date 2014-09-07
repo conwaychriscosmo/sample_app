@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'bcrypt-ruby', '3.1.2'
 gem 'rails', '4.1.5'
 gem 'bootstrap-sass'
 gem 'sprockets'
